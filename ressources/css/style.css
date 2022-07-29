@@ -1,0 +1,280 @@
+/* All */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    color: hsl(210, 11%, 21%);
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    border: 2px solid hsl(210, 11%, 21%);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+/* Banner */
+.banner {
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner h1, .banner p {
+    padding: 0;
+    margin: 6px;
+}
+
+/* Section */
+section {
+    position: relative;
+}
+section .background {
+    background-image: url("ressources/images/background-bw.jpg");
+    opacity: 0.07;
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+    z-index: -100;
+}
+
+section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Colors */
+.colors_container {
+    margin: 20px 50px;
+}
+.color {
+    display: inline-block;
+    width: 24%;
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+}
+
+.color div {
+    border: 0px solid transparent;
+    height: 90px;
+    line-height: 90px;
+}
+
+.top_color {
+    background-color: hsl(0,0%,30%);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.mid_color {
+    background-color: hsl(0,0%,50%);
+}
+
+.bot_color {
+    background-color: hsl(0,0%,70%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.color h4 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+/* Pink */ 
+.pink {
+    color:#f6237b;
+}
+.pink .top_color {
+    background-color:#f6237b; /* =>  */
+    color: #fdd9e5;
+}
+
+.pink .mid_color {
+    background-color: #f99dbc;
+    color: #fdd9e5;
+}
+
+.pink .bot_color {
+    background-color: #fdd9e5;
+}
+
+/* Green */ 
+.green {
+    color:hsl(84, 93%, 63%);
+}
+.green .top_color {
+    background-color:hsl(84, 93%, 63%); /* => #b2f849 */
+    color: hsl(84, 100%, 96%);
+}
+
+.green .mid_color {
+    background-color: hsl(84, 100%, 86%); /* => #e2ffb8 */
+    color: hsl(84, 100%, 96%);
+}
+
+.green .bot_color {
+    background-color: hsl(84, 100%, 96%); /* => #f7ffeb */
+}
+
+/* Bleu */ 
+.blue {
+    color:hsl(180, 69%, 58%);
+}
+.blue .top_color {
+    background-color:hsl(180, 69%, 58%); /* => #4adede */
+    color:hsl(180, 69%, 95%);
+}
+
+.blue .mid_color {
+    background-color: hsl(180, 69%, 74%); /* => #8feaea */
+    color: hsl(180, 69%, 95%);
+}
+
+.blue .bot_color {
+    background-color: hsl(180, 69%, 95%); /* => #e9fbfb */
+}
+
+/* White */ 
+.white {
+    color:hsl(210, 11%, 21%);
+}
+.white .top_color {
+    background-color: hsl(210, 11%, 21%); /* => #30363b*/
+    color:hsl(214, 12%, 95%);
+}
+
+.white .mid_color {
+    background-color: hsl(214, 12%, 70%); /* => #a9b1bc*/
+    color: hsl(214, 12%, 95%);
+}
+
+.white .bot_color {
+    background-color: hsl(214, 12%, 95%); /* => #f1f2f4*/
+}
+
+
+/* Fonts */
+.fonts table {
+    width: 100%;
+}
+.fonts tr {
+    width: 100%;
+}
+.fonts td {
+    display: inline-block;
+    width: 49%;
+}
+
+.fonts td.left div {
+    padding: 20px;
+    width: fit-content;
+    float: right;
+}
+
+.fonts td.right div  {
+    padding: 20px;
+    width: fit-content;
+    float: left;
+}
+
+.fonts td div p{
+    font-size: 25px;
+    line-height: 35px;
+    margin: 2px;
+}
+.fonts td div h3{
+    font-size: 35px;
+    line-height: 45px;
+    padding-left: 50px;
+}
+
+/* Text */
+.styles table {
+    width: 100%;
+}
+.styles tr {
+    width: 100%;
+}
+.styles td.big_letter {
+    padding-top: 30px;
+    text-align: right;
+    font-size: 140px;
+    width: 39%;
+
+    /* vertical-align: none; */
+}
+
+.styles td.big_letter.montserrat {
+    padding-top: 0;
+    font-size: 120px;
+}
+
+.styles td.big_letter.cormorant {
+    padding-top: 10px;
+    font-size: 140px;
+}
+
+.styles td.other {
+    width: 59%;
+    padding-left: 30px;
+}
+
+.styles td.other h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.pinyon, .pinyon-script h3, .pinyon-script p {
+    font-family: 'Pinyon Script', cursive;
+}
+
+.cormorant-garamond h3, .cormorant-garamond p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.montserrat h3, .montserrat p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat h3 {
+    font-size: 35px;
+}
+
+.montserrat p {
+    font-size: 18.5px !important;
+}
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
