@@ -26,28 +26,21 @@ nav li a {
 
 
 /* Tablets */
-@media only screen and (min-width: 700px) and (max-width: 1023px){
-
+@media only screen and (min-device-width: 700px) and (max-device-width: 1023px){
+    
 }
 
 /* Phone */
-@media only screen and (max-width: 700px){
-    nav {
-        height: 100%;
+@media only screen and (max-device-width: 700px){
+    nav li a {
+        font-size: 1.8rem;
     }
-    
+
     nav ul {
-        flex-direction: column;
         justify-content: space-around;
-        text-align: center;
-        
-        padding: 1.5rem; 
-        height: 100%;
     }
 
-    header {
-        position: relative;
-        height: 25%;
+    .hide-mobile {
+        display: none;
     }
-
 }
