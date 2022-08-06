@@ -8,7 +8,7 @@ header {
 }
 
 nav ul {
-    margin: 1.5rem 5rem;
+    padding: 1.5rem 5rem;
 
     display: flex;
     justify-content: space-between;
@@ -21,4 +21,33 @@ nav li a {
 
     color: #30363b;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 700px) and (max-width: 1023px){
+
+}
+
+/* Phone */
+@media only screen and (max-width: 700px){
+    nav {
+        height: 100%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        
+        padding: 1.5rem; 
+        height: 100%;
+    }
+
+    header {
+        position: relative;
+        height: 25%;
+    }
+
 }
