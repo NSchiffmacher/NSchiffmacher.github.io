@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    opacity: 0.92;
+    background-color: white;
+}
+
+nav ul {
+    margin: 1.5rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+
+    color: #30363b;
+    font-family: 'Montserrat', sans-serif;
+}
