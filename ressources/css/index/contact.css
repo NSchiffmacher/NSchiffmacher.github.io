@@ -4,9 +4,9 @@
 
 .contacts-grid {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px;
-    gap: 10px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 25px;
 
     justify-content: center;
 
@@ -21,6 +21,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-radius: 15px;
+}
+
+.contacts-grid .plateforme img {
+    width: 50%;
+}
+
+
+
+.contacts-grid .plateforme.instagram img {
+    filter: invert(1);
+}
+.contacts-grid .plateforme.mail img {
+    filter: invert(1);
 }
 
 .contacts-grid .plateforme.mail {
@@ -28,7 +43,7 @@
 }
 
 .contacts-grid .plateforme.messenger {
-    background-color: violet;
+    background-color: #A10EEB;
 }
 
 .contacts-grid .plateforme.instagram {
@@ -36,7 +51,7 @@
 }
 
 .contacts-grid .plateforme.whatsapp {
-    background-color: greenyellow;
+    background-color: #25D366;
 }
 
 
