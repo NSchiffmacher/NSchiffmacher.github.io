@@ -23,6 +23,16 @@ h1 {
     text-align: center;
 }
 
+h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
@@ -34,14 +44,37 @@ h2, h3, h4, h5, h6 {
 p, a, li {
     font-family: 'Montserrat';
 }
+
+section {
+    width: 1000px;
+    margin: 3.5rem auto;
+}
+
+
+
 /* Tablets */
-@media only screen and (min-device-width: 700px) and (max-device-width: 1023px) {
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+    section {
+        width: 100%;
+    }
 
 }
 
 /* Phone */
-@media only screen and (max-device-width: 700px){
+@media only screen and (max-width: 700px){
+    section {
+        width: 100%;
+    }
+
     h1 {
-        font-size: 3rem;
+        font-size: 4.1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
     }
 }
