@@ -8,7 +8,7 @@
     background-position: top;
     text-align: center;
 
-    margin: 0;
+    margin: 0 auto 3.5rem auto;
 }
 
 .hero .filter {
