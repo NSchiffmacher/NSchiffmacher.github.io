@@ -3,6 +3,10 @@ section.portofolio {
     width: 70%;
 }
 
+.portofolio h1 {
+    margin-bottom: 1rem;
+}
+
 .portofolio .photo-container .tablet-col {
     display: none;
 }
